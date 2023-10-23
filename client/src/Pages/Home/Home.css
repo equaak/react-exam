@@ -1,0 +1,159 @@
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0px 50px 10px 50px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    main {
+        padding: 0px 200px 30px 200px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    main {
+        padding: 0px 350px 50px 350px;
+    }
+}
+
+
+
+.home-header {
+    padding: 15px;
+    display: block;
+    background-color: #fc6;
+}
+
+.header-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.find-button {
+    padding: 10px 20px;
+    background-color: #2a81dd;
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.home-type-select {
+    width: 200px;
+}
+
+.find-button:hover {
+    background-color: #7fb4ed;
+}
+
+select {
+    font-size: 13px;
+    padding: 3px;
+}
+
+.header-cost {
+    margin-right: 100px;
+}
+
+.header-cost input {
+    width: 80px;
+    margin: 0 20px;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+
+.header-down {
+    margin-top: 10px;
+    display: flex;
+}
+
+.checkbox-form {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.checkbox-label {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.checkbox-form input {
+    border-radius: 0;
+}
+
+.content {
+    margin-top: 25px;
+}
+
+.content-title {
+    font-size: 20px;
+    color: #f90;
+    margin-right: 10px;
+}
+
+.content-container {
+    border: 1px solid #e3e3e3;
+    margin-top: 5px;
+}
+
+.sale-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.sale-title {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.sale-header a {
+    margin-right: 10px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #2a81dd;
+}
+
+.rent-content {
+    background-color: #fff3db;
+}
+
+.sales, .rents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.prev-button, .next-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 3px;
+    border: solid 1px #e1e1e1;
+    background-color: #fff;
+    width: 30px;
+}
+
+.prev-button:hover, .next-button:hover{
+    background-color: #fc6;
+}
+
+.prev-button:active, .next-button:active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prev-button > img, .next-button > img{
+    width: 10px;
+    height: 10px;
+}
+
+.prev-button > img{
+    transform: scaleX(-1);
+}

@@ -1,0 +1,38 @@
+.hot_sale_detailed-container{
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.img-imitation.large{
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.hot_sale_detailed-right{
+  width: 60%;
+}
+
+.hot_sale_detailed_header-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hot_sale-objectLink.large{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.price-label.large{
+  font-size: 16px;
+  color: #1c1819;
+}
+
+.address-label{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}

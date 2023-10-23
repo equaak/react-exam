@@ -1,0 +1,32 @@
+.hot_sale-container{
+  margin-top: 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.img-imitation{
+  width: 70px;
+  height: 50px;
+  background-color: rgb(233, 233, 233);
+  margin-right: 10px;
+}
+
+.price-label{
+  font-weight: 600;
+}
+
+.adress-label{
+  color: #888B94;
+}
+
+.hot_sale-objectLink{
+  color: #2a81dd;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.hot_sale-objectLink:hover{
+  color: #ff0000;
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.house{
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.house-container{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 120px;
+  height: 80px;
+  background-color: rgb(233, 233, 233);
+}
+
+.house-cost-container{
+  font-size: 11px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: max-content;
+  padding: 2px 7px;
+}
+
+.house-info-container{
+  color: #666;
+  font-size: 11px;
+  margin-top: 5px;
+}
